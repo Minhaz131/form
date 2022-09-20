@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.continer {
+    width: 87%;
+    margin: 20px auto;
+    padding: 5px 10px 10pc 14px;
+    background-color: #f2f2f2;
+    border: 1px solid rgba(148, 195, 186, 0.823);
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="time"],
+input[type="file"],
+select {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    width: 25%;
+    padding: 15px 35px;
+    font-size: 15px;
+    margin: 1% 0% 1% 0%;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* textarea {
+    min-height: 150px;
+} */
+
+#comment {
+    width: 80%;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: gray;
+}
+
+label {
+    margin: 2% 4% 1% 0%;    
+    float: left;
+    width: 16%;
+    padding-left: 4pc;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+.gender{
+    width: 16%;
+}
+.textarea{
+    margin: 2% 2% 1% 4%;
+    width: 10%;
+    padding: 6px;
+    font-family: arial;
+    font-weight: bold;
+}
+input[type="radio"] {
+    width: 2%;
+    float: left;
+    /* display: inline-block; */
+    margin-top: 2%;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    width: 47%;
+    padding: 1%;
+    background-color: rgb(120, 241, 248);
+    border: none;
+    border-radius: 8px;
+    margin: 1%;
+    cursor: pointer;
+    font-size: 23px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: rgb(82, 248, 212);
+}

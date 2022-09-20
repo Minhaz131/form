@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="continer">
+      <form action="ok.php" method="get">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name" required disabled value="Minhaz"
+        />
+        <!-- last name -->
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Enter your last name" required
+        />
+        <!-- username -->
+        <label for="username">User Name:</label>
+        <input type="text" name="username" id="username" placeholder="Enter your username" required
+        />
+        <!-- email -->
+        <label for="email">Email ID:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email id" required
+        />
+        <!-- password -->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required
+        /> <br>
+        <!-- date -->
+        <label for="date">DOB:</label>
+        <input type="date" name="date" id="date" required max="2019-05-15" /> <br><br>
+        <!-- time -->
+        <label for="time">Time:</label>
+        <input type="time" name="time" id="time" required />
+        <!-- file -->
+        <label for="file">File:</label>
+        <input type="file" name="file" id="file" required />
+        <!-- number -->
+        <label for="number">Number</label>
+        <input type="number" name="number" id="number" required min="880" />
+        <!-- radio -->
+        <label class="gender" for="Gender">Male</label><input type="radio" id="Gender" name="gender" />
+        <label  class="gender" for="Gender">Female</label>
+        <input type="radio" name="gender" id="Gender"/>
+        <!-- select -->
+        <label  for="payment">Chose your payment option</label>
+        <select name="payment" id="payment">
+          <option>--Select your payment--</option>
+          <option value="visa">Visa Card</option>
+          <option value="master">Master Card</option>
+          <option value="paypal">paypal</option>
+        </select>
+        <br />
+        <!-- textarea -->
+        <label class="textarea" for="comment">Write your comment</label>
+        <textarea name="comment" id="comment" cols="26" rows="5"></textarea>
+        <!-- reset -->
+        <input type="reset" />
+        <!-- sign up -->
+        <input type="submit" value="sing up" />
+      </form>
+    </div>
+  </body>
+</html>

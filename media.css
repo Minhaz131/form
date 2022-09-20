@@ -1,0 +1,63 @@
+@media all and (max-width: 1350px) and (min-width: 700px) {
+	#comment{
+		width: 50%
+	}
+	.textarea{
+		width: 35%
+	}
+}
+@media screen and (max-width: 1060px){
+	label{
+		width: 22%;
+		margin: 1% 2% 1% 0%;
+	}
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="date"],
+	input[type="number"],
+	input[type="time"],
+	input[type="file"],
+	select{
+		width: 20%;
+		font-size: 12px;
+    	padding: 19px 35px;
+	}
+}
+@media all and (max-width: 1000px) {
+	input[type="radio"]{
+		width: 1%;
+		margin: 1%;
+	}
+}
+@media all and (max-width: 699px){
+		#comment{
+		width: 50%
+		}
+		.textarea{
+			width: 35%
+		}
+			input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="date"],
+	input[type="number"],
+	input[type="time"],
+	input[type="file"],
+	select{
+		width: 90%;
+		font-size: 12px;
+    	padding: 19px 35px;
+	}
+		label{
+		width: 90%;
+		margin: 2% 2% 1% 0%;
+	}
+	input[type="radio"]{
+		width: 2%;
+		margin: 2% 2% 2% 10%;
+	}
+	.gender{
+		width:33%;
+	}
+}
